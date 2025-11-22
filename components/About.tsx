@@ -24,7 +24,7 @@ const featured = [
     },
     {
         icon: <FaDumbbell />,
-        title: 'modern equipment',
+        title: 'modern equipment', 
         subtitle: 
             `Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corrupti tempore 
             quibusdam suscipit, nulla consectetur eos dignissimos porro sapiente ipsam.`,
