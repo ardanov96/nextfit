@@ -40,3 +40,9 @@
 .active {
   @apply text-red-600;
 }
+
+/* swiper pagination styles */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullets,
+.swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-accent;
+} 
