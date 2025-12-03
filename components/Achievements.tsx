@@ -58,9 +58,9 @@ const statsItem = {
 
 const Achievements = () => {
  const ref = useRef(null);
- const isInview = useInView(ref);
+ const isInview = useInView(ref, { once: true });
  return (
-  <section>
+  <section className='pt-16 pb-16'>
     <div className="container mx-auto">
         <motion.div 
         variants={statsContainerVariant}

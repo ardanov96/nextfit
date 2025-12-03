@@ -6,7 +6,7 @@ import {FaDumbbell} from 'react-icons/fa6';
 
 import {motion} from 'framer-motion'; 
 import {fadeIn} from '@/lib/variants';
-import Achievements from './Achievments';
+import Achievements from './Achievements';
 
 const featured = [
     {
