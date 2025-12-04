@@ -13,7 +13,7 @@ const featured = [
         icon: <FaUsers />,
         title: 'award-winning trainers',
         subtitle: 
-            `Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corrupti tempore 
+            `Lorem ipsum dolor sift amet consectetur adipisicing elit. Neque corrupti tempore 
             quibusdam suscipit, nulla consectetur eos dignissimos porro sapiente ipsam.`,
     },
     {
