@@ -32,18 +32,15 @@ import { motion } from 'framer-motion';
 
 // variants 
 const brandContainerVariant = {
-    hidden: {
-        y: 20,
-        opacity: 0,
-    },
+    hidden: { y: 20, opacity: 0 },
     show: {
         opacity: 1,
         transition: {
             duration: 0.5,
-            ease: [0.25, 0.6, 0.3, 0.8],
+            ease: [0.25, 0.6, 0.3, 0.8] as [number, number, number, number],  // ← ubah ini
         },
     },
-};
+}
 
 const brandItem = {
     hidden: {
@@ -54,7 +51,7 @@ const brandItem = {
         opacity: 1,
         transition: {
             duration: 0.5,
-            ease: [0.25, 0.6, 0.3, 0.8],    
+            ease: [0.25, 0.6, 0.3, 0.8] as [number, number, number, number],    
         }
     },
 };

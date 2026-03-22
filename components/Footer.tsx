@@ -24,7 +24,7 @@ const footerContainerVariant = {
         opacity: 1,
         transition: {
             duration: 0.5,
-            ease: [0.25, 0.6, 0.3, 0.8],
+            ease: [0.25, 0.6, 0.3, 0.8] as [number, number, number, number],
         },
     },
 };
@@ -38,7 +38,7 @@ const footerItem = {
         opacity: 1,
         transition: {
             duration: 0.5,
-            ease: [0.25, 0.6, 0.3, 0.8],    
+            ease: [0.25, 0.6, 0.3, 0.8] as [number, number, number, number],    
         }
     },
 };
